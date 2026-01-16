@@ -86,7 +86,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t py-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground text-center md:text-left mb-4 md:mb-0">
+          <p
+            suppressHydrationWarning
+            className="text-sm text-muted-foreground text-center md:text-left mb-4 md:mb-0"
+          >
             © {new Date().getFullYear()} HyS Tecnología SAS. Todos los derechos
             reservados.
           </p>

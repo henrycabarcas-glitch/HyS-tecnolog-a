@@ -5,7 +5,6 @@ import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/toaster";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
-import Chatbot from "@/components/chatbot";
 import { ThemeProvider } from "@/components/theme-provider";
 import WhatsAppButton from "@/components/whatsapp-button";
 import { FirebaseClientProvider } from "@/firebase";
@@ -53,7 +52,6 @@ export default function RootLayout({
             <main className="flex-1">{children}</main>
             <Footer />
             <WhatsAppButton />
-            <Chatbot />
             <Toaster />
           </ThemeProvider>
         </FirebaseClientProvider>
