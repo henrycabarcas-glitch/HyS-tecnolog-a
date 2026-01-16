@@ -7,12 +7,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <section id="servicios">
-        <Services />
-      </section>
-      <section id="productos">
-        <Products />
-      </section>
+      <Services />
+      <Products />
     </>
   );
 }

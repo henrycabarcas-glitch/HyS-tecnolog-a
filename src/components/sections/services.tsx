@@ -54,7 +54,7 @@ const Services = () => {
       title: "Venta y Alquiler de Equipos",
       description:
         "Multifuncionales, impresoras láser, escáneres y fotocopiadoras de las mejores marcas. Planes de renting flexibles.",
-      link: "#",
+      link: "/outsourcing",
       iconBgClass: "bg-primary/10",
       iconColorClass: "text-primary",
       borderColorClass: "border-primary/30",
@@ -64,7 +64,7 @@ const Services = () => {
       title: "Equipos de Cómputo",
       description:
         "Venta y arrendamiento de computadores portátiles y de escritorio para dotar a tu personal con la mejor tecnología.",
-      link: "#",
+      link: "/productos",
       iconBgClass: "bg-accent/10",
       iconColorClass: "text-accent",
       borderColorClass: "border-accent/30",
@@ -74,7 +74,7 @@ const Services = () => {
       title: "Mantenimiento y Soporte",
       description:
         "Servicio técnico especializado preventivo y correctivo. Suministros y repuestos originales para garantizar la vida útil de sus equipos.",
-      link: "#",
+      link: "/servicio-tecnico",
       iconBgClass: "bg-gray-200 dark:bg-gray-700",
       iconColorClass: "text-foreground",
       borderColorClass: "border-border",
@@ -82,7 +82,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="py-20 bg-card">
+    <section id="servicios" className="py-20 bg-card scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-headline font-bold text-3xl lg:text-4xl text-foreground mb-4">
@@ -100,7 +100,7 @@ const Services = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

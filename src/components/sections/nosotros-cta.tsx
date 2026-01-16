@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
+import Link from "next/link";
 
 export default function NosotrosCta() {
   return (
@@ -18,18 +19,22 @@ export default function NosotrosCta() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button
+              asChild
               size="lg"
               className="bg-white text-primary font-bold text-lg hover:bg-zinc-100"
             >
-              <Mail className="mr-2 h-5 w-5" />
-              Contáctanos Ahora
+              <Link href="/contacto">
+                <Mail className="mr-2 h-5 w-5" />
+                Contáctanos Ahora
+              </Link>
             </Button>
             <Button
+              asChild
               size="lg"
               variant="outline"
               className="bg-zinc-900/20 backdrop-blur-md border-white/30 text-white font-bold text-lg hover:bg-zinc-900/30"
             >
-              Ver Catálogo
+              <Link href="/productos">Ver Catálogo</Link>
             </Button>
           </div>
         </div>

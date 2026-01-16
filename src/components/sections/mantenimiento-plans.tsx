@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle, XCircle } from "lucide-react";
+import Link from "next/link";
 
 const PlanCard = ({
   plan,
@@ -47,10 +48,11 @@ const PlanCard = ({
       ))}
     </ul>
     <Button
+      asChild
       variant={plan.popular ? "default" : "outline"}
       className="w-full py-3 h-auto rounded-xl font-bold"
     >
-      Elegir {plan.name}
+      <Link href="/contacto">Elegir {plan.name}</Link>
     </Button>
   </div>
 );
@@ -94,7 +96,7 @@ export default function MantenimientoPlans() {
   ];
 
   return (
-    <section className="py-24 px-6">
+    <section id="plans" className="py-24 px-6 scroll-mt-20">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center">
           <h2 className="text-4xl font-black mb-4">

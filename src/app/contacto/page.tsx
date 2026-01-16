@@ -74,13 +74,13 @@ export default function ContactoPage() {
                 Síguenos en redes
               </h4>
               <div className="flex gap-4">
-                 <Link href="#" className="w-12 h-12 rounded-full bg-card border flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors text-foreground" aria-label="LinkedIn">
+                 <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-card border flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors text-foreground" aria-label="LinkedIn">
                     <Linkedin className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="w-12 h-12 rounded-full bg-card border flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors text-foreground" aria-label="Facebook">
+                <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-card border flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors text-foreground" aria-label="Facebook">
                     <IconFacebook className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="w-12 h-12 rounded-full bg-card border flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors text-foreground" aria-label="Instagram">
+                <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-card border flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors text-foreground" aria-label="Instagram">
                     <IconInstagram className="h-6 w-6" />
                 </Link>
               </div>

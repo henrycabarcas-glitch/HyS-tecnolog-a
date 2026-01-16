@@ -2,6 +2,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import { Shield } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function MantenimientoHero() {
   const heroImage = PlaceHolderImages.find(
@@ -31,11 +32,11 @@ export default function MantenimientoHero() {
             su negocio en Colombia.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" className="font-bold text-lg px-8 py-4 h-auto">
-              Ver Planes
+            <Button asChild size="lg" className="font-bold text-lg px-8 py-4 h-auto">
+              <Link href="#plans">Ver Planes</Link>
             </Button>
-            <Button size="lg" variant="outline" className="font-bold text-lg px-8 py-4 h-auto">
-              Nuestros Servicios
+            <Button asChild size="lg" variant="outline" className="font-bold text-lg px-8 py-4 h-auto">
+              <Link href="/servicios">Nuestros Servicios</Link>
             </Button>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Calendar, Cog } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const ServicioTecnicoHero = () => {
   const heroImage = PlaceHolderImages.find(
@@ -27,18 +28,22 @@ const ServicioTecnicoHero = () => {
         </p>
         <div className="flex flex-wrap gap-4">
           <Button
+            asChild
             size="lg"
             className="font-bold flex items-center gap-2"
           >
-            <Calendar />
-            Agendar Visita Técnica
+            <Link href="#contacto">
+              <Calendar />
+              Agendar Visita Técnica
+            </Link>
           </Button>
           <Button
+            asChild
             size="lg"
             variant="outline"
             className="font-bold flex items-center gap-2"
           >
-            Ver Tarifas
+            <Link href="#mantenimiento">Ver Tarifas</Link>
           </Button>
         </div>
       </div>

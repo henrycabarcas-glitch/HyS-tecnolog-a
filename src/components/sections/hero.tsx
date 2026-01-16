@@ -45,7 +45,7 @@ const Hero = () => {
                 size="lg"
                 className="font-bold text-lg shadow-xl shadow-primary/20 transition-all transform hover:-translate-y-1"
               >
-                <Link href="#contacto">
+                <Link href="/contacto">
                   Cotizar Ahora <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
@@ -55,7 +55,7 @@ const Hero = () => {
                 variant="outline"
                 className="text-lg font-semibold"
               >
-                <Link href="#servicios">Ver Servicios</Link>
+                <Link href="/servicios">Ver Servicios</Link>
               </Button>
             </div>
           </div>

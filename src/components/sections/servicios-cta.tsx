@@ -1,6 +1,7 @@
 
 "use client";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const ServiciosCTA = () => {
     return (
@@ -12,11 +13,11 @@ const ServiciosCTA = () => {
                         <p className="text-white/80 text-lg max-w-[600px]">Hable con uno de nuestros arquitectos de soluciones hoy mismo y reciba un diagnóstico inicial sin costo.</p>
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
-                        <Button variant="secondary" size="lg" className="bg-white text-primary font-black text-lg hover:bg-gray-200">
-                            Agendar Consultoría
+                        <Button asChild variant="secondary" size="lg" className="bg-white text-primary font-black text-lg hover:bg-gray-200">
+                           <Link href="/contacto">Agendar Consultoría</Link>
                         </Button>
-                        <Button variant="ghost" size="lg" className="bg-gray-900 text-white font-black text-lg hover:bg-black">
-                            Llamar Ahora
+                        <Button asChild variant="ghost" size="lg" className="bg-gray-900 text-white font-black text-lg hover:bg-black">
+                            <Link href="tel:+573246594263">Llamar Ahora</Link>
                         </Button>
                     </div>
                 </div>

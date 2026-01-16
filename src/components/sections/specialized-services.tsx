@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { CheckCircle } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const SpecializedServices = () => {
   const printerImage = PlaceHolderImages.find(
@@ -76,10 +77,11 @@ const SpecializedServices = () => {
               </li>
             </ul>
             <Button
+              asChild
               variant="outline"
               className="w-full py-3 h-auto font-bold border-primary text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all"
             >
-              Saber Más
+              <Link href="/outsourcing">Saber Más</Link>
             </Button>
           </div>
         </div>
@@ -139,10 +141,11 @@ const SpecializedServices = () => {
               </li>
             </ul>
             <Button
+              asChild
               variant="outline"
               className="w-full py-3 h-auto font-bold border-primary text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all"
             >
-              Saber Más
+              <Link href="/outsourcing">Saber Más</Link>
             </Button>
           </div>
         </div>

@@ -12,7 +12,7 @@ const Products = () => {
   };
 
   return (
-    <div className="py-20 bg-background-light dark:bg-background relative overflow-hidden">
+    <section id="productos" className="py-20 bg-background-light dark:bg-background relative overflow-hidden scroll-mt-20">
       <div className="absolute left-0 top-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
       <div className="absolute right-0 bottom-1/4 w-64 h-64 bg-accent/5 rounded-full blur-3xl"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -100,7 +100,7 @@ const Products = () => {
               </li>
             </ul>
             <Link
-              href="#contacto"
+              href="/contacto"
               className="text-primary font-bold hover:text-red-700 border-b-2 border-primary hover:border-red-700 pb-1 transition-all"
             >
               Solicitar catálogo de productos
@@ -108,7 +108,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

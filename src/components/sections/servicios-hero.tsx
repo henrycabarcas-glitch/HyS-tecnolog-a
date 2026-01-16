@@ -4,6 +4,7 @@
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from "next/image";
+import Link from "next/link";
 
 const ServiciosHero = () => {
   const heroImage = PlaceHolderImages.find((img) => img.id === "servicios-hero");
@@ -23,11 +24,11 @@ const ServiciosHero = () => {
                         Proveemos infraestructura IT de alto rendimiento y soporte especializado para asegurar que su negocio nunca se detenga.
                     </p>
                     <div className="flex flex-wrap gap-4">
-                        <Button size="lg" className="font-bold">
-                            Ver Portafolio
+                        <Button asChild size="lg" className="font-bold">
+                            <Link href="/productos">Ver Portafolio</Link>
                         </Button>
-                        <Button size="lg" variant="outline" className="font-bold">
-                            Consultoría Gratis
+                        <Button asChild size="lg" variant="outline" className="font-bold">
+                            <Link href="/contacto">Consultoría Gratis</Link>
                         </Button>
                     </div>
                 </div>

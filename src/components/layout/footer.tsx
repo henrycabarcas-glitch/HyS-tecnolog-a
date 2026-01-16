@@ -19,22 +19,22 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
+                <Link href="/outsourcing" className="hover:text-primary transition-colors">
                   Renting de Impresoras
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
+                <Link href="/productos" className="hover:text-primary transition-colors">
                   Venta de Computadores
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
+                <Link href="/servicio-tecnico" className="hover:text-primary transition-colors">
                   Servicio Técnico
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
+                <Link href="/productos" className="hover:text-primary transition-colors">
                   Suministros
                 </Link>
               </li>

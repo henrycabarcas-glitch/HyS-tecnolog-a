@@ -42,7 +42,7 @@ export default function ProductosSidebar() {
           {categories.map((category) => (
             <Link
               key={category.name}
-              href="#"
+              href="/productos"
               className={`flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors ${
                 category.active
                   ? "bg-primary/10 text-primary border-l-4 border-primary font-semibold"
@@ -63,10 +63,11 @@ export default function ProductosSidebar() {
               Te ayudamos a encontrar la solución perfecta.
             </p>
             <Button
+              asChild
               variant="secondary"
               className="w-full text-xs font-bold uppercase tracking-wide bg-white text-black hover:bg-gray-200"
             >
-              Solicitar Asesoría
+              <Link href="/contacto">Solicitar Asesoría</Link>
             </Button>
           </div>
           <div className="absolute -right-4 -bottom-4 opacity-20">
