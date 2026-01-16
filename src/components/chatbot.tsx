@@ -11,9 +11,11 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Loader2, MessageSquare, Send, User, Bot } from "lucide-react";
-import { interactiveFAQChatbot } from "@/ai/flows/interactive-faq-chatbot";
+import { runFlow } from "@genkit-ai/next/client";
+import { type InteractiveFAQChatbotOutput } from "@/ai/flows/interactive-faq-chatbot";
+
 
 interface Message {
   id: number;
@@ -46,7 +48,7 @@ export default function Chatbot() {
 
     startTransition(async () => {
       try {
-        const result = await interactiveFAQChatbot({ query: input });
+        const result = await runFlow<InteractiveFAQChatbotOutput>('interactiveFAQChatbotFlow', { query: input });
         const assistantMessage: Message = {
           id: Date.now() + 1,
           role: "assistant",
