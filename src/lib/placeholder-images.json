@@ -1,0 +1,190 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-printer",
+      "description": "Kyocera ECOSYS Multifunctional printer in an office",
+      "imageUrl": "https://images.unsplash.com/photo-1612814266697-e5814f3063cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvZmZpY2UlMjBwcmludGVyfGVufDB8fHx8MTc2ODM3NTI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office printer"
+    },
+    {
+      "id": "services-printer-closeup",
+      "description": "Close up of a modern office printer",
+      "imageUrl": "https://images.unsplash.com/photo-1767498051845-f04c53089e91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcmludGVyJTIwY2xvc2V1cHxlbnwwfHx8fDE3Njg0NDIyNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "printer closeup"
+    },
+    {
+      "id": "services-laptop",
+      "description": "Laptop on a desk in an office workspace",
+      "imageUrl": "https://images.unsplash.com/photo-1623251606108-512c7c4a3507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsYXB0b3AlMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzY4NDQyMjc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop workspace"
+    },
+    {
+      "id": "services-photocopier",
+      "description": "Person using a photocopier to scan documents",
+      "imageUrl": "https://images.unsplash.com/photo-1760872703636-f8d643a2b510?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b2ZmaWNlJTIwcGhvdG9jb3BpZXJ8ZW58MHx8fHwxNzY4NDQyMjc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office photocopier"
+    },
+    {
+      "id": "services-corporate-office",
+      "description": "Interior of a modern corporate office",
+      "imageUrl": "https://images.unsplash.com/photo-1549637642-90187f64f420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3Jwb3JhdGUlMjBvZmZpY2V8ZW58MHx8fHwxNzY4MzQ3Njc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate office"
+    },
+    {
+      "id": "servicios-hero",
+      "description": "Modern high-tech data center with glowing servers",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCPEaAcc_JjRzBPkmVssKpx71IUp15O83t_J7u3E1AQmoTp5OLNYkhhrhu1XPSminXrpgzbafv6LwHVjQ9Sblb6h5DhR0wBjRURWsYXVOP7CPdXZJl9mQHDUHjLfXGMQ5pv2OY0LF_qmldMikZS1PJ3UsEK7qTLgKO_VVVQisVJCOaph4xqsOPoZxo8dgWJKm5XI5_Ati7DOELW_tRVvCKQEnK3EcDO9k47WKgZhMwH89A_61MXGlWoj3t7rQ_K9h76T-ypmbDyzDrG",
+      "imageHint": "data center"
+    },
+    {
+      "id": "servicios-outsourcing",
+      "description": "Modern laptop and office peripherals for lease",
+      "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "office peripherals"
+    },
+    {
+      "id": "servicios-tecnico",
+      "description": "Technician repairing a motherboard with specialized tools",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCcmIQKAx2BAjiA6TWNLSjmuhf-T9o8pRdYUEztiCkUmt4XBeL-JUbZItnpmOrv9Nnad2nR0hP87fRWumH7cA5ufmb1ez6jKKJ9hZ5z5wYeE7TUqaDVIbpQRZfb7xKyt6L3DSo3cxiVETyDRy-z2DJFvi65bj7cwo350PJJFp5BshNjfuxhYu273pDPbP5j5PJ7nSyOkWNidUS7WffBp7OSF1a1L96qFQbSBzs67EoVGs998BsppWQT7yrBxTjZRXMZHwe6R_YQxt7_",
+      "imageHint": "motherboard repair"
+    },
+    {
+      "id": "servicios-mantenimiento",
+      "description": "Server racks in a clean modern data center",
+      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "server racks"
+    },
+    {
+      "id": "epson-ecotank-l3250",
+      "description": "Epson EcoTank L3250 Multifunctional Printer",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCTsr2ZYoBzZO8UIR2ZjgN3Q0_q9_jjRycKv2OSOG9oyflYBxb39oZ25F8UH2nFVZ3tx9e3_AA2jcK8oZnlpa-8YgwaqoTK03pe8K7p0LwN9Txo3vKN5-osS6gDl5k6AL47Lheb_R3Yl4AiM6RPNRlNub5j_VTAHMPuOTVJFBio7OFcAy1wIx8EMLPnXsB5xyj9aZZ4nEzQH083ecoqnNTEmVkm0Qv1NUpf27OpotpbKOoEsALQJrWwL06b1f7aYI-bBLv5tcKcGe3J",
+      "imageHint": "multifunctional printer"
+    },
+    {
+      "id": "fujitsu-fi-8170",
+      "description": "Fujitsu fi-8170 Enterprise Scanner",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAJsNrfjdHJkqRu3dcbiyyHGHOnyxXq6lF41fefjOB3MNBQh80J51BDYuJ7gtDRzDMt7bgAA75bd0J1tQ8hE8pACipD2ts4rikct1U5VQvPYTUt1f5nBR0dKZP7EN7fCr124PObIZ49oUEUm0DfIMBbcL5XBdh7ncN3AnoSnnC_rv-rVV4bgqAapYjNx79OPLOej8Wk5fLFiiTKzUYH3O1IvbdZoKiGg1pLZVORoBH31aVhQi5Yf_gGBbCgTCGGHfuDXLZY2Kleo8od",
+      "imageHint": "enterprise scanner"
+    },
+    {
+      "id": "hp-probook-440-g9",
+      "description": "HP ProBook 440 G9 Laptop",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAK48JU1swIN8B6alyy1Q3o9ueQw6AxCMA1LbUzYkfUVTIMBLcuVEsoM0RlhNBLRYNzmRW5AIGTMECIPFYM3u6wyBj930Bk4cN4vTBefosfNZ4u5RsEtlqdU7_U64ONQkPbDAmwJ9UablIAyCqTspS0-6_UY1VUQ2XwAaME8dWGPXC1vsger-Dyvv1I9sbNVWsOgaYrgsQJUV325UGsJV4QVEzKJAxl3ThrNXit5YYVsRv6pCrVbgHTj0Pcu6BCXWEylxvzN7R35wZi",
+      "imageHint": "business laptop"
+    },
+    {
+      "id": "hp-toner-58a",
+      "description": "Tóner Original HP 58A",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCa50neqWHQexvMWOA9akXz7k2Q3qDcWdAnzMp7QUQda8aSjN7IKtcNtha2adQxAMsalXaCmB28vN4_osaZDrBdh2wG9MNlb0Bzt85ycAw-XQzMhqQ38dPf8pyUNjCC8wRCWpUWPk5Bib1qgorX1rpa5nTx7YDYrVxPEDoK6ipTtnC7Lx7QqU45NeXhoPW3ptzoUanL7IEn-Q1MAbITdKvEUT2aYQSk2849gb7dQn559H9Mtr3gER5zdpjaCAL0IWzsRnrtf8tDfvuu",
+      "imageHint": "printer toner"
+    },
+    {
+      "id": "epson-powerlite-x49",
+      "description": "Epson PowerLite X49 Projector",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDjGouNbQQU7XA0qz-1H90_OKH_GUrAdi38waFeKoVdW1h9BzHjgTAQu7PIooPoiqTqFQLbU-FLpsXdVIQHXPRwDBt_HPk03xWWKgrUejlEPmPDRa3SZV29QdMMfwOSIYJQpeJCxFsGYyUzVwPEFKYh1q0CgxGtt3U0s49XNndf0y8_9fv0bxQzRtJuTdHdXfepoAqqatAtQh4g699-aLLBdYM4E90QneAvJnc9wmCAnZV3QmMy9Y2qKjljPh_c-1NLoxs3VIW902PR",
+      "imageHint": "office projector"
+    },
+    {
+      "id": "kingston-a400-ssd",
+      "description": "Kingston A400 SSD 480GB",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDgwVxBOe4kzcda-y0aG21ggra1WohkQmAig7jmgISizU8ZDMi81CM2isTkpIi-HpA0jiCFYUscGJ3lEoIh2fh3hurH17B8ivLTmMOwWsTXrpjFu8a6DvUouDtYl7zERPsat5VHDpV6YVQLHT8NQsRlXM3tCQtwVBTmi72sXC65TFO06ItdPnmIjeOeAobgs4Fi3P6fUR_Kez3avdPt0GQ5p7JKiz1hBfn1Li9R0G2Icrsr74dagV_ndj_ZNUSaCFnuZBR4Hok_31Km",
+      "imageHint": "solid state drive"
+    },
+    {
+      "id": "outsourcing-hero",
+      "description": "Modern business office with computers and printers",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuB3d7LOMyQgbq6rE-BlWKutzNi4HHz0dZIfoqGWE14EyURU-dni66LOeEjpiBaMRimyrYFVt5zk79LgbUB9QtFxUThDBMvejzwea7Pr_4XH9b8_SMMq6byDfsO90H-KHXHnX98aHyT_MJ1dRYdTbJNaRGZTGxM5bqhmRhLQ-dvmGjp1oaLosIs7tTFthwqzcHvMlLv6WZOmyCuvOsb1J7kLks_FF9lQxbuDQKEkRrMKHVW383rUz9H1aA34-Xw4x3MlrP5mV_EiCeY7",
+      "imageHint": "office computers"
+    },
+    {
+      "id": "outsourcing-printers",
+      "description": "High volume industrial office printer",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDa1xAqs1zwl8gv4J4bh6J5vUiOeWKFZG6tp9up4zznm83nYKA6kkaXGySFyZ1RUcE8LRif-h6IbwIU7fACzZvpszRl_guD6vxjFKwY4pgaxIi0Lv2QFE_xjoI0859q4dLespf9tX34GhTKcAWE8QDcGVYQTOytnipV2FUVwgHWP3v8JV33I2n8EVyrouPH2qh6h6B4jK0RmmmW31N0j3fcypG2McFlTb8KAE5VaeYFY3Xctx5DanihnZsSM7b0ARTWJ9JdlQheHbA4",
+      "imageHint": "industrial printer"
+    },
+    {
+      "id": "outsourcing-laptops",
+      "description": "Modern laptop and workspace",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAco0Zi_oxG4eerZKkHA3zJPiiyhh3jhqxxqrWk89Ix_LuXrHcEsOmIet0Wbx3tikSdaDvkj9FbS1aVY3wsQQRTdKKfizngySfqghKZnMVTMASNq6kA2aqQnhc6P9TUYdkh4Vl5TTBIqJDJSPJ0r-Of7CzkD_Ia9AIuBUF1Hi_j7tDR4VB5YPvgsCndBFAvINdlTC9ZOzBQCH0ssdjs0yOEVLsPslDj6bqTPvgngJePHiJCecfAnyPVHUSBtsnJDu-cxgUHaZz2ZJDN",
+      "imageHint": "laptop workspace"
+    },
+    {
+      "id": "servicio-tecnico-hero",
+      "description": "Technical engineer repairing a large scale office printer",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBXUXlyOA080rMPT6s-fMrIA0GrQt2b---YDGS526QFGTaoBHPXP1GRHhDFNzodx18lR29WtdvrnTPJ-hYw-JA-JGm_goyifKaS4riuroIvQQ8VRDQ-fJXqgg4tMPreXkrLto_0KwXswq09EulVhhtsARvJjVY2Ut5IPHbSy9J4LkkBAFWmO6_LLA-RNU1cCi8IobUooPx7PfuAOOJDhTJXu5SwFCqD-Lexeg26fdA5tL_RsQG3_GyY9d9kjasC3AYDf1PqcQX8eGvd",
+      "imageHint": "printer repair"
+    },
+    {
+      "id": "servicio-tecnico-plotter",
+      "description": "Modern wide format plotter printing blueprints",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBaxqf1dKVZEhd4ZacpNXP8Z2wuD_BRYVp8GIEd7J7J3aCzpuvBA3zOaT51UC5gQPs6IoKC8MYOICSg9JPllZySutX9ZGjOcL_j-FXC4lEKe4MMwY-sN8DUjpzzMgN0lIcKovK41-skQFe2uBWfJ2T9OOmuE7EU4l1fI_16LTZDySZZQ2JR9wbaJOTUN8GxEEi4FX1cPv1MGKyyu1sZGnpYRo5x3eJWaQZeH0Dki8-A40dfQwWjloPLPcfbHjSn1uZuuaa0hoj-jQY2",
+      "imageHint": "plotter blueprints"
+    },
+    {
+      "id": "servicio-tecnico-scanner",
+      "description": "Close up of a professional high speed document scanner",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAdJ3PO13uNA8je-mQrkD_aoAK5r8TsWoVcpBfE2hPm9vBbo20fHRxFH8dLGrZaUmPsfBAyn-XY3aMcuPftrZM1rYWAFNSpNBxU2qMfZ_LNdayqlOcCp9vr9eu0fALkVKR3uNQjwS7t_KM1K6egsKJcurRb4tCKSxcNkONo6y9THGfmAieD3QFDTgMlrKcGfnBUJ6-Q_Z0jwpz59xr7aFUzHXiHmNYB6oinDGvipOqOrwnK_zjDF0tLvTvx-0mGBlxpWT58yL_1I_W-",
+      "imageHint": "document scanner"
+    },
+    {
+      "id": "mantenimiento-hero",
+      "description": "Technical data center room with servers and high performance equipment",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAHKxWcmsSBufEfX_neV7AFGMUfA9KGJHHpigquE5CdC-tJ8nxarZD4axu5tC9bNdI1pL0hht84PXKVeVAyZNW6nGFPbpVo4xbWp7l8p2FvJ5guQaK8Ksy3diiQk-79Rxjbq-GqDF1X8R4JP4ewb6W0JwIYeeBkgyCDe-3MxIE2vIMVrLmMRDjMXhEH4mSK3K4m8shBkGCG032y7mngLIVvRskzskqbYgfnl5X9SyMWUtJjdLI_P1MRCyu2BM5RIcGla6fgqdkMmGK-",
+      "imageHint": "data center"
+    },
+    {
+      "id": "cliente-logo-1",
+      "description": "Corporate logo of a local partner in black and white",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC0lPuXqZN4XEA96KaNifv3DatMrcy5jKzidPJnxfQzGP2OBWupF1ox7PrqBXHI-v-Ahi9XVanD717W7weqnjUT8zlS06ny_OuQNJFXhG6lm9MCseDxVehjEW_D0syVRhK37X7ZlAMrXUSH8TpAnRfO4y3zammvKzepgleoEddGGUMInwqP17otxLPeooK4ptDaw2HC_6i2Y6O3NbDJpYh8Q2turyzOCo5WvtkUozhYYmLVVIgxuT3ygrw_F9lc0I-k6zgxJNlGKakr",
+      "imageHint": "corporate logo"
+    },
+    {
+      "id": "cliente-logo-2",
+      "description": "Corporate logo of a technology partner in black and white",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAgK4Fe3n3NYAeKpIVyIVF1mZKsIL4wvPLpjq7Q0Z2An7emiXBwYn4UKgLz-U9zqjQLYLcAnsBzCITVKDnQxjakI29NJrKkUg0GHotR9mgH4S4pYKeIX2ttKFbBijPIVaL_QMZbsc3Ay3ojKhEjC7wnLX-SO6TCfPQpQpjsBC-XXu7PB1K-aC6bbrFLSXfioORc1jwxRm__xAIqAWcn4ubq64fLz8NOJF_iA5QsYFfjlVqc4GRLuD8gaYy0icZ0d4yAAAH30qOlxdXD",
+      "imageHint": "technology partner logo"
+    },
+    {
+      "id": "cliente-logo-3",
+      "description": "Corporate logo of a manufacturing partner in black and white",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBDvSmLhVrVrI5uFad1NXAb_NxwCA4QVDblS5Ej_MD3AJqjSE_d0w0owbjkfieMMD6pYQMuaQEZvB-DTO930SCM4_9_rzIcewhcTQlODn69y_4QnVKoje42vhGQHkUQILeqC6yMpVpVuT-ExfZRWB6urJCmi3SL1QYr6hKg7EvwvMx_E1fnalY8LpFvr_RUbFGI6ZqWN4lugl9bboecGGBQlMchkYilvFtEd7PfmLyvZMsyjg2PFDx2PqatLvl9BojevKNkbcHvaRrL",
+      "imageHint": "manufacturing partner logo"
+    },
+    {
+      "id": "cliente-logo-4",
+      "description": "Corporate logo of a retail partner in black and white",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuANSIDjiGIfGdhtNmpLnN3xlSq_YSTdIhxSg3BOKecTg7QQsBSbfE296MF9q-ECiNa4DdDX3Se059WXpm808zuE9d4DZQzjqhqYYLvPl_QHk_X6yFaJYaVyr-nodh0qZdw1JtXU7-gJzyM6crDgE8OH0loR54QyimNAncGP0aZNEZ9fYIdEcVJYAZsT4fiyMRGuv7TXtzccpNs2gHyKIJDBzCW6l-eGC9vz114CKaNQkEKv78YJTXSdhqgzElkSP9ts5_Yv__cpdzqH",
+      "imageHint": "retail partner logo"
+    },
+    {
+      "id": "cliente-logo-5",
+      "description": "Corporate logo of a medical partner in black and white",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuB8U6cIdqkxHMyOh0Lq32H_jK1wvz9qur3TrQqIumc8HcAKT6x-YTUFo3rWcBfNOO3Rfz9Q91tnHPBF1RwN6EbVpiqVmz4ytJ6BPQR_mBmtq7xnCMHXF56hR67nc0zA94ch0j4g9i7pV99_fMXR-vnq0Q3xaLAgs59NqbQZwLSbQPcheDbe_X5aeOZUeVwfy1VNR52ph4UXLLqZy61U7aiL5D4a95kbFdfSQIElvWFuo_SZAiKoVzievbzFHCZjShyk_c3fKKIUjTRa",
+      "imageHint": "medical partner logo"
+    },
+    {
+      "id": "nosotros-hero",
+      "description": "Modern office team working in Montería Colombia",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAZH0WCQ0Ds3cMqXl9HJhFLkQJvO-NYEKksBhBuZoS4bPr0h2Nw0_7ld5IA2xjZpUuE9QYCXduWrCgt4D0ovU-Gwfqz4f9W9RgRcT4m3IMDyVEisG92r71mKtDdvholXaZ_0Ti2ERSMb9_mLmux7hOJ0KkKERaa-6_JYt94262lJKKuF4c8SxMJzAPvG-361Zfbo8AyOdP4fpDoDioqcMVwm1iqosjy9DZFP4ev8oBQrkwC2d2kqZxPKN77VUoa4YsEmwrbcKk6I74m",
+      "imageHint": "office team"
+    },
+    {
+      "id": "nosotros-values-1",
+      "description": "Server room infrastructure setup",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBw8o3rmWPC5yWPfme3sbN-URE-urwRMV3jgVwFEY9U0z-ldN6ZPE2CrYd31v3eLYE6UU2Iab7tEJMtp-gNj4Kp7DPGjvaER2RLNaYNrlBl-qkjQm1OapoloPdmNHGe2LRHrGNvq2qRCm8B976qLr2oj-8so9ySYE-1fQVG5RKGbJ97THMa653OxswXxLcJrO5fvq0xE0pVoZlSMyun5t3xUpgH9Ral4l7ysJMN-o8ew7OKSIjR9OedivQ2jlkDXbUYuBxxcsONIj2v",
+      "imageHint": "server room"
+    },
+    {
+      "id": "nosotros-values-2",
+      "description": "Technical support specialist helping client",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAtJCIzMToKbiBPGGsESe9q9cyEfvPQazJsn7D0nuuCz1A2et3vTrpbAjK_L6oPpB21vo1kpnDwHkHhUm4X615XFrHsKBY41ibxF2zWc2KYLl-I7rIbBop1oJ3vTuMEMQ5PgsCdgGWC9Xr9wtJYo7LMjXbwRTbM8KzlZJksB8fQiOzgWZUQ7p2A1qrGhR26vO7P5_ZZY2MihjYLZ0MCodwubI18vJokmO-cpbCJDV6OtJ2M7_T3xHDuLAzJmIBtv_Mh7bg4qwtUUn6P",
+      "imageHint": "technical support"
+    },
+    {
+      "id": "contacto-map",
+      "description": "Map showing downtown Monteria Colombia",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBiYGa2pkwxy_oR9jinaJZb8Pugv2BmcwTn0h50wjz-NqYw7tRfG97Vi0xuYNp99rHUTVPkQ1j32Xgn2O0ABpbETGwZLmEgvSsFKaMWO4cqidcBBCteMbGaUea1ekRn7wyKmZ_6ic6mmbubo0pcCZsIiEiSx_wq7SDHZjyvDciN-f8v_MxFISmapqhigNf3wNvsWIDEcPRfOJnW1M_IgC3CHrJL4m6qoG2Ix_wsBfaAeOx78MfcZMpprjWvUfU-4dOK9i8h3oTF-GCF",
+      "imageHint": "map monteria"
+    }
+  ]
+}
