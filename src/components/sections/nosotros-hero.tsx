@@ -21,7 +21,7 @@ export default function NosotrosHero() {
             </div>
           )}
           <div className="absolute -bottom-6 -right-6 p-6 bg-card rounded-xl shadow-xl z-20 border border-primary/20">
-            <p className="text-primary font-black text-4xl">15+</p>
+            <p className="text-primary font-black text-4xl">30+</p>
             <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
               Años de experiencia
             </p>
