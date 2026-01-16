@@ -8,6 +8,7 @@ import Footer from "@/components/layout/footer";
 import Chatbot from "@/components/chatbot";
 import { ThemeProvider } from "@/components/theme-provider";
 import WhatsAppButton from "@/components/whatsapp-button";
+import { FirebaseClientProvider } from "@/firebase";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -41,19 +42,21 @@ export default function RootLayout({
           openSans.variable
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-          <WhatsAppButton />
-          <Chatbot />
-          <Toaster />
-        </ThemeProvider>
+        <FirebaseClientProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+            <WhatsAppButton />
+            <Chatbot />
+            <Toaster />
+          </ThemeProvider>
+        </FirebaseClientProvider>
       </body>
     </html>
   );
